@@ -32,7 +32,7 @@ nav {
 }
 
 .menu-toggle {
-  display: none; /* hidden on desktop */
+  display: none; 
   font-size: 24px;
   background: none;
   border: none;
@@ -55,7 +55,7 @@ nav {
   color: inherit;
 }
 
-/* Desktop sections */
+
 .home, .about, .skills, .contact {
   padding: 150px;
 }
@@ -83,7 +83,7 @@ nav {
   color: rgb(40, 3, 55);
 }
 
-/* Tablet & mobile view */
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -91,11 +91,11 @@ nav {
   }
 
   .menu-toggle {
-    display: block; /* show hamburger */
+    display: block; 
   }
 
   .nav-links {
-    display: none; /* hide by default */
+    display: none; 
     flex-direction: column;
     gap: 15px;
     text-align: center;
@@ -105,7 +105,7 @@ nav {
   }
 
   .nav-links.active {
-    display: flex; /* show when toggled */
+    display: flex; 
   }
 
   .home {
@@ -121,7 +121,7 @@ nav {
 
   .about, .skills, .contact {
     padding: 40px 20px;
-    text-align: left;   /* proper paragraph style */
+    text-align: left;  
     line-height: 1.6;
   }
 
@@ -131,7 +131,7 @@ nav {
   }
 }
 
-/* Small phones */
+
 @media (max-width: 480px) {
   .home, .about, .skills, .contact {
     padding: 20px;
