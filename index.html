@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -56,16 +56,16 @@
             <label for="email">Email</label>
             <input type="email" id="email" ><br><br>
             <label for="send"></label>
-            <input type="button" id="send" value="sendmessage" >
+            <button onclick=greet()>Send Message</button>
             
         </form>
     </section>
-    <script>
-  // Select the toggle button and the nav menu
+    <script src="script.js">
+ 
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.nav-links');
 
-  // Add click event
+  
   menuToggle.addEventListener('click', () => {
     navLinks.classList.toggle('active'); // show/hide menu
   });
